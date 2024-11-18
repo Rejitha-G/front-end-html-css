@@ -1,0 +1,140 @@
+
+.main-div{
+    display:grid;
+    grid-template-columns:430px 1fr 430px;
+    height:100%;
+}
+   
+html,body{
+    margin:0;
+    padding:0;
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+.firstpage-div{
+    display:grid;
+    grid-template-columns:430px;
+    background-color: #0df505;
+    
+
+}
+.firstpageinner-1{
+    height:300px;
+   
+ }
+.firstinnerclass-img{
+    display:inline-block;
+    margin: 10px;
+    border-radius: 100px;
+    border:solid;
+    max-width: 50px;
+    height: 50px;
+
+}
+.firstpage-para{
+
+    color:rgb(34, 14, 14);
+    font-size: 30px;
+    width:400px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: oblique;
+    text-align: center;
+    
+    
+}
+ .firstpageinner-2{
+    
+   
+    text-align: center;
+   
+ }
+ .firstpage-img{
+    display:inline-block;
+    margin: 60px;
+    border-radius: 35px;
+    border:solid;
+    max-width: 500px;
+    height: 200px;
+ }
+ .thirdpage-div{
+    background-color: rgb(57, 68, 233);
+    display:grid;
+    grid-template-columns:430px;
+ }
+ .thirdpageinner_1{
+    height: 300px;
+ }
+ .thirdpage-img{
+    display:inline-block;
+    margin: 90px;
+    border-radius: 70px;
+    border:dotted;
+    max-width: 400px;
+    height: 200px;
+ }
+ .thirdpagehead{
+    text-align: center;
+    font-size: 35px;
+    text-decoration-style: solid;
+    color:rgb(131, 15, 15);
+    font-family:  sans-serif;
+    margin-bottom: -30px;
+ }
+.thirdpage-para{
+    margin: 60px;
+     font-size: 20px;
+    width:300px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color:rgb(68, 66, 64);
+}
+.second-page{
+  background-color: #ec19a6;
+    align-content:center ;
+}
+.second-inner{
+    margin:140px;
+    display: grid;
+    grid-template-columns: 200px;
+}
+.button1{
+    height:30px; 
+    width:200px;
+    background-color: rgb(65, 86, 104);
+    color: rgb(174, 247, 6);
+    border-radius: 35px;
+    border-width:solid;
+}
+.button2{
+    margin-top:20px;
+    height:30px; 
+    width:200px;
+    background-color: rgb(65, 86, 104);
+    color: rgb(174, 247, 6);
+    border-radius: 35px;
+    border-width:solid;
+}
+.button3{
+    margin-top:20px;
+    height:30px; 
+    width:200px;
+    background-color: rgb(65, 86, 104);
+    color: rgb(174, 247, 6);
+    border-radius: 35px;
+    border-width:solid;
+
+}
+.button4{
+    margin-top:-20px;
+    height:40px; 
+    width:300px;
+    background-color: rgb(225, 230, 235);
+    color: rgb(196, 197, 192);
+    border-width:solid;
+    border-color: rgb(201, 207, 207);
+}
+.search-class{
+    display: inline-block;
+    font-size: 20px;
+    font-family: arial;
+    margin-left: -200px;
+}
